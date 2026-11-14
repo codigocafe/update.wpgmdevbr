@@ -1,8 +1,8 @@
 {
     "name": "WPGMCOMBR",
     "slug": "wpgmcombr",
-    "version": "0.0.1",
-    "download_url": "https://updates.seudominio.com/downloads/meu-tema-2.1.0.zip",
+    "version": "0.0.4",
+    "download_url": "https://github.com/codigocafe/wpgmcombr/archive/refs/tags/v0.0.4.zip",
     "requires": "6.0",
     "requires_php": "7.4",
     "tested": "6.7",
