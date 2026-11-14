@@ -1,0 +1,15 @@
+{
+    "name": "WPGMCOMBR",
+    "slug": "wpgmcombr",
+    "version": "0.0.1",
+    "download_url": "https://updates.seudominio.com/downloads/meu-tema-2.1.0.zip",
+    "requires": "6.0",
+    "requires_php": "7.4",
+    "tested": "6.7",
+    "last_updated": "2026-11-14",
+    "homepage": "https://update.gustavomathias.dev.br",
+    "sections": {
+        "description": "Descrição do tema.",
+        "changelog": "<h4>2.1.0</h4><ul><li>Correção no footer.</li></ul>"
+    }
+}
