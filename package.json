@@ -5,6 +5,7 @@
   "description": "Servidor HTTP para exibir arquivos JSON",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   }
 }

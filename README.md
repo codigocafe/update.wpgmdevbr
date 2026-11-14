@@ -1,20 +1,22 @@
 # Servidor HTTP de arquivos JSON
 
-## Executar
+## Executar localmente com Wrangler
 
 ```bash
-npm start
+npx wrangler dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000). Os arquivos são lidos recursivamente da pasta `data/`, incluindo `data/plugins/` e `data/themes/`.
+Abra o endereço informado pelo Wrangler. Os arquivos são publicados como assets estáticos a partir da pasta `data/`.
 
 - `GET /` lista os arquivos JSON disponíveis.
 - `GET /api/plugins` retorna a lista de plugins em JSON.
 - `GET /api/themes` retorna a lista de themes em JSON.
 - `GET /api/themes/wpgmcombr.json` exibe o conteúdo do arquivo do tema.
 
-Para usar outra porta ou pasta:
+Para publicar:
 
 ```bash
-PORT=8080 JSON_DIR=/caminho/para/json npm start
+npx wrangler deploy
 ```
+
+Para adicionar um arquivo, coloque-o em `data/plugins/` ou `data/themes/` e atualize a lista correspondente em `data/index.json`.
